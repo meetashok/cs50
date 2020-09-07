@@ -1,0 +1,7 @@
+1. Ask user for an integer input 
+2. If user_input <= 0
+    3. Go to step 1
+4. For i from 1 to user_input
+    5. For j in 1 to user_input
+        6. if j <= i, print #
+        7. else print space

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <meta charset=“UTF-8”>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <script type="text/javascript" src="scripts.js"></script>
+        <title>CS50: Homepage</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Ashok Kumar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="interests.html">Interets</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                <a href="mailto:ashok.iitb@gmail.com">Email me </a>
+              </span>
+            </div>
+          </nav>
+        
+          <div class="container">
+            <div class="row">
+              <div class="col-3 col-centered p-5">
+                <img src="images/ashok.jpg" class="rounded mx-auto d-block" width=100% alt="..." id="myimage">
+                <div class="col text-center p-3">
+                    <button class="btn btn-dark" onclick="toggleImage()">Apply filters with js</button>
+                </div>
+                
+              </div>
+              <div class="col-9 col-centered p-5 m-10">
+                  <div class="container">
+                    <p class="display-4">My name is Ashok Kumar &#x1F680;</p> 
+                    <p class="text-justify">I am currently employed with Bank of America &#x1F3E6; as a Technology Manager. 
+                        I lead a team data scientists and data engineers to lead the big data strategy for the bank. I am familiar with <code>Python</code>, <code>R</code>, data science and machine learning. I live in Houston, Texas.
+                        This website has links to my resume, information on key projects and my interests.
+                    </p>
+                  </div>
+                  
+              </div>
+            </div>
+          </div>
+          <div class="container">
+             <div class="row">
+                <div class="col-3 col-centered p-5"></div>
+                <div class="col-9 col-centered p-5 m-10">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item"><a href="https://www.linkedin.com/in/ashokkumar42/" class="btn btn-primary" target="_blank">LinkedIn</a></li>
+                        <li class="list-group-item"><a href="https://github.com/meetashok" class="btn btn-dark" target="_blank">Github</a></li>
+                        <li class="list-group-item"><a href="https://twitter.com/meetashok" class="btn btn-info" target="_blank">Twitter</a></li>
+                        <li class="list-group-item"><a href="https://instagram.com/meetashok" class="btn btn-danger" target="_blank">Instagram</a></li>
+                        <li class="list-group-item"><a href="https://facebook.com/meetashok" class="btn btn-warning" target="_blank">Facebook</a></li>
+                        <!-- <li class="list-group-item">Twitter</li>
+                        <li class="list-group-item">Instagram</li>
+                        <li class="list-group-item">Facebook</li>
+                        <li class="list-group-item">Github</li> -->
+                    </ul>
+                </div>
+             </div>
+            
+          </div>
+
+    </body>
+</html>
